@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloudberry · Thee voor groot en klein</title>
+  <meta name="description" content="Cloudberry: fruitige, cafeïnevrije thee voor het hele gezin. Ontdek de vier smaken en schrijf je in voor de nieuwsbrief.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/cloudberry-beeldmerk.svg">
+  <meta property="og:title" content="Cloudberry · Thee voor groot en klein">
+  <meta property="og:description" content="Fruitige thee, cafeïnevrij, voor het hele gezin.">
+  <meta property="og:image" content="assets/img/hero-alle-smaken.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- MailerLite Universal (account 2782418) -->
+  <script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '2782418');
+  </script>
+</head>
+<!-- data-hover: "vergroten" (foto zoomt in bij hover) of "verkleinen" (foto zoomt uit) -->
+<body data-hover="vergroten">
+
+  <a class="skip" href="#inhoud">Naar de inhoud</a>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand" aria-label="Cloudberry, naar boven">
+        <img src="assets/logo/cloudberry-woordmerk.svg" alt="Cloudberry" width="168" height="40">
+      </a>
+      <nav class="nav" aria-label="Hoofdmenu">
+        <a href="#smaken">Smaken</a>
+        <a href="#verhaal">Ons verhaal</a>
+        <a href="#momenten">Momenten</a>
+        <a href="#inschrijven" class="btn btn-primary btn-small">Schrijf je in</a>
+      </nav>
+    </div>
+    <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  </header>
+
+  <main id="inhoud">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="clouds" aria-hidden="true">
+        <svg class="cloud c1" viewBox="0 0 220 120"><use href="#cloud"/></svg>
+        <svg class="cloud c2" viewBox="0 0 220 120"><use href="#cloud"/></svg>
+        <svg class="cloud c3" viewBox="0 0 220 120"><use href="#cloud"/></svg>
+      </div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="label reveal">Fruitige thee · Cafeïnevrij · Voor het hele gezin</p>
+          <h1 class="display">
+            <span class="line"><span>Thee voor</span></span>
+            <span class="line"><span><span class="mark">groot</span> en</span></span>
+            <span class="line"><span>klein</span></span>
+          </h1>
+          <p class="lead reveal" style="--d:.5s">Vier fruitige smaken die je met een gerust hart deelt. Cafeïnevrij, dus ook je kleinste theeproever drinkt mee.</p>
+          <div class="actions reveal" style="--d:.65s">
+            <a href="#smaken" class="btn btn-primary">Ontdek de smaken
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
+            <a href="#inschrijven" class="btn btn-secondary">Schrijf je in</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual reveal" style="--d:.3s">
+          <button class="zoom" type="button" data-lb="0" aria-label="Vergroot foto: de vier smaken">
+            <img src="assets/img/hero-alle-smaken.jpg" width="2000" height="1091"
+                 alt="De vier Cloudberry-theedozen naast elkaar op wit: Green Tea & Lemongrass, Chamomile & Honey, Ginger & Turmeric en Rooibos & Forest Berries.">
+            <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+          </button>
+          <div class="bubble" aria-hidden="true">
+            <svg viewBox="0 0 220 120"><use href="#cloud"/></svg>
+            <span>Proef mee ☁️</span>
+          </div>
+        </figure>
+      </div>
+
+      <a href="#smaken" class="scroll-cue" aria-label="Scroll naar de smaken"><span></span></a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Thee voor groot en klein</span><i></i><span>Fruitige thee</span><i></i><span>Cafeïnevrij</span><i></i><span>Voor het hele gezin</span><i></i>
+        <span>Thee voor groot en klein</span><i></i><span>Fruitige thee</span><i></i><span>Cafeïnevrij</span><i></i><span>Voor het hele gezin</span><i></i>
+      </div>
+    </div>
+
+    <!-- ================= VOORDELEN ================= -->
+    <section class="perks" aria-label="Waarom Cloudberry">
+      <ul class="wrap perks-list">
+        <li class="reveal">
+          <span class="perk-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h11v5a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5V9Z"/><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3c0 1.5 1 1.5 1 3M12 3c0 1.5 1 1.5 1 3"/></svg></span>
+          <div><strong>Cafeïnevrij</strong><span>Voor groot en klein, ook ’s avonds.</span></div>
+        </li>
+        <li class="reveal" style="--d:.1s">
+          <span class="perk-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Z"/><path d="M5 19 13 11"/></svg></span>
+          <div><strong>Natuurlijke ingrediënten</strong><span>Echt fruit, kruiden en bloemetjes.</span></div>
+        </li>
+        <li class="reveal" style="--d:.2s">
+          <span class="perk-icon"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><circle cx="12" cy="15" r="3"/></svg></span>
+          <div><strong>Vier smaken</strong><span>Fris, zacht, warm en fruitig.</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ================= SMAKEN ================= -->
+    <section class="section" id="smaken">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="label">De smaken</p>
+          <h2 class="title">Voor elk moment <span class="mark">een kopje</span></h2>
+          <p class="intro">Elke doos heeft zijn eigen kleur, zodat ook de kleinsten hun favoriet herkennen. Klik op een doos om ze van dichtbij te bekijken.</p>
+        </header>
+
+        <div class="flavours">
+          <article class="flavour reveal">
+            <button class="zoom" type="button" data-lb="1" aria-label="Vergroot foto: Green Tea & Lemongrass">
+              <img src="assets/img/smaak-green-tea.jpg" width="640" height="800" loading="lazy" alt="Doos Green Tea & Lemongrass met groen label, op wit.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <div class="flavour-body">
+              <span class="pill">Green Tea &amp; Lemongrass</span>
+              <h3>Fris</h3>
+              <p>Groene thee met citroengras. Lekker bij het ontbijt of koud in een drinkfles.</p>
+            </div>
+          </article>
+          <article class="flavour reveal" style="--d:.08s">
+            <button class="zoom" type="button" data-lb="2" aria-label="Vergroot foto: Chamomile & Honey">
+              <img src="assets/img/smaak-chamomile.jpg" width="640" height="800" loading="lazy" alt="Doos Chamomile & Honey met geel label, op wit.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <div class="flavour-body">
+              <span class="pill">Chamomile &amp; Honey</span>
+              <h3>Zacht</h3>
+              <p>Kamille met een vleugje honing. Het vaste kopje voor het slapengaan.</p>
+            </div>
+          </article>
+          <article class="flavour reveal" style="--d:.16s">
+            <button class="zoom" type="button" data-lb="3" aria-label="Vergroot foto: Ginger & Turmeric">
+              <img src="assets/img/smaak-ginger.jpg" width="640" height="800" loading="lazy" alt="Doos Ginger & Turmeric met oranje label, op wit.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <div class="flavour-body">
+              <span class="pill">Ginger &amp; Turmeric</span>
+              <h3>Warm</h3>
+              <p>Gember en kurkuma. Voor koude dagen, na een wandeling in de regen.</p>
+            </div>
+          </article>
+          <article class="flavour reveal" style="--d:.24s">
+            <button class="zoom" type="button" data-lb="4" aria-label="Vergroot foto: Rooibos & Forest Berries">
+              <img src="assets/img/smaak-rooibos.jpg" width="640" height="800" loading="lazy" alt="Doos Rooibos & Forest Berries met bordeaux label, op wit.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <div class="flavour-body">
+              <span class="pill">Rooibos &amp; Forest Berries</span>
+              <h3>Fruitig</h3>
+              <p>Rooibos met bosbessen en framboos. De favoriet van de kids na school.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VERHAAL (enige antraciete sectie) ================= -->
+    <section class="story" id="verhaal">
+      <div class="wrap story-grid">
+        <div class="story-copy">
+          <img class="story-logo reveal" src="assets/logo/cloudberry-woordmerk-licht.svg" alt="Cloudberry" width="260" height="62">
+          <h2 class="title reveal">Een wolk en <span class="mark mark-light">een bes</span></h2>
+          <p class="reveal">Een cloudberry is een echte Noordse bes: rond, goudgeel en opgebouwd uit kleine bolletjes. Ze groeit in de vrije natuur, waar de lucht fris is en de zomers licht.</p>
+          <p class="reveal">We maakten Cloudberry voor gezinnen die samen thee willen drinken, zonder te twijfelen wat er in het kopje van de kinderen zit. Zonder cafeïne, met natuurlijke ingrediënten.</p>
+
+          <ol class="name-parts">
+            <li class="reveal"><span class="np-word">Cloud</span><span>Luchtig en zacht, als een wolk.</span></li>
+            <li class="reveal" style="--d:.1s"><span class="np-word">Berry</span><span>Fruitig en vrolijk, zoals de bes.</span></li>
+            <li class="reveal" style="--d:.2s"><span class="np-word">Theeblaadje</span><span>Het moment waarop je samen aan tafel gaat zitten.</span></li>
+          </ol>
+
+          <a href="#inschrijven" class="btn btn-light reveal">Proef mee</a>
+        </div>
+        <figure class="story-visual reveal" style="--d:.15s">
+          <button class="zoom zoom-dark" type="button" data-lb="5" aria-label="Vergroot foto: de vier smaken op donker">
+            <img src="assets/img/verhaal-donker.jpg" width="1600" height="1168" loading="lazy" alt="De vier theedozen schuin naast elkaar op een donkere antraciete achtergrond.">
+            <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+          </button>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= MOMENTEN ================= -->
+    <section class="section" id="momenten">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="label">Samen</p>
+          <h2 class="title">Thee is <span class="mark">samen</span> zijn</h2>
+          <p class="intro">Aan de ontbijttafel, op een dekentje in het park of aan tafel na school. Cloudberry hoort erbij.</p>
+        </header>
+
+        <div class="moments">
+          <figure class="moment moment-video reveal">
+            <button class="zoom" type="button" data-lb="6" aria-label="Bekijk de video groot, met geluid">
+              <video src="assets/video/cloudberry-video.mp4" poster="assets/video/poster.jpg"
+                     autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1"></video>
+              <span class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+              <span class="hint">Bekijk groot, met geluid</span>
+            </button>
+            <figcaption>Uit de wolken, recht op je tafel</figcaption>
+          </figure>
+          <figure class="moment reveal" style="--d:.08s">
+            <button class="zoom" type="button" data-lb="7" aria-label="Vergroot foto: ontbijt">
+              <img src="assets/img/gezin-ontbijt.jpg" width="1200" height="800" loading="lazy" alt="Moeder en zoontje lachen samen aan de ontbijttafel.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <figcaption>Ontbijt</figcaption>
+          </figure>
+          <figure class="moment reveal" style="--d:.16s">
+            <button class="zoom" type="button" data-lb="8" aria-label="Vergroot foto: picknick">
+              <img src="assets/img/gezin-picknick.jpg" width="1200" height="800" loading="lazy" alt="Gezin picknickt samen in het gras.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <figcaption>Picknick</figcaption>
+          </figure>
+          <figure class="moment reveal" style="--d:.24s">
+            <button class="zoom" type="button" data-lb="9" aria-label="Vergroot foto: na school">
+              <img src="assets/img/gezin-lachen.jpg" width="1200" height="675" loading="lazy" alt="Twee meisjes lachen aan tafel bij het ontbijt.">
+              <span class="hint"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5M11 8v6M8 11h6"/></svg>Vergroot</span>
+            </button>
+            <figcaption>Na school</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA + INSCHRIJVEN ================= -->
+    <section class="section signup" id="inschrijven">
+      <div class="wrap signup-grid">
+        <div class="signup-copy">
+          <p class="label reveal">Nieuwsbrief</p>
+          <h2 class="title reveal">Jouw eerste kopje <span class="mark">staat klaar</span></h2>
+          <p class="reveal">Schrijf je in en ontdek als eerste onze smaken, met tips voor elk moment van de dag.</p>
+          <ul class="checks">
+            <li class="reveal">Een warm welkom met de vier smaken</li>
+            <li class="reveal" style="--d:.08s">Smaaktips voor groot en klein</li>
+            <li class="reveal" style="--d:.16s">Geen spam. Uitschrijven kan altijd.</li>
+          </ul>
+        </div>
+        <div class="form-card reveal" style="--d:.15s">
+          <!-- MailerLite embedded form: Cloudberry — Inschrijven nieuwsbrief -->
+          <div class="ml-embedded" data-form="G9vrMu"></div>
+          <noscript><p>Zet JavaScript aan om het inschrijfformulier te zien.</p></noscript>
+
+          <!-- Reserve: verschijnt alleen als het MailerLite-formulier niet laadt (bv. in een preview) -->
+          <form class="fallback-form" id="fallback-form" hidden>
+            <p class="fallback-note">Voorbeeld van het formulier. Op de live site laadt hier het MailerLite-formulier.</p>
+            <h3>Thee voor groot en klein</h3>
+            <label>Voornaam<input type="text" name="naam" required autocomplete="given-name"></label>
+            <label>E-mailadres<input type="email" name="email" required autocomplete="email"></label>
+            <label class="check"><input type="checkbox" required> Ja, ik wil de nieuwsbrief van Cloudberry ontvangen. Uitschrijven kan altijd.</label>
+            <button type="submit" class="btn btn-primary">Schrijf je in</button>
+            <p class="fallback-done" hidden><strong>Welkom aan tafel!</strong> Kijk in je mailbox: je eerste kopje staat klaar.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <img src="assets/logo/cloudberry-woordmerk.svg" alt="Cloudberry" width="200" height="47">
+      <p class="label">Fruitige thee · Cafeïnevrij · Voor het hele gezin</p>
+      <p class="small">Cloudberry is een fictief merk, gemaakt voor de eindopdracht Creatieve Automation door Dylan Jonckheere (2026).
+        Productfoto’s: aangeleverd bronmateriaal. Sfeerbeelden: <a href="https://unsplash.com/license">Unsplash</a>. Video: Adobe Firefly.
+        Je gegevens worden enkel gebruikt voor de nieuwsbrief, via MailerLite.</p>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX ================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-title" hidden>
+    <div class="lb-backdrop" data-lb-close></div>
+    <div class="lb-panel">
+      <div class="lb-top">
+        <span class="lb-count label" id="lb-count">1 / 10</span>
+        <button class="lb-close" type="button" data-lb-close aria-label="Sluiten">
+          <span>Sluiten</span>
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="lb-stage" id="lb-stage"></div>
+      <div class="lb-bottom">
+        <button class="lb-nav" type="button" id="lb-prev" aria-label="Vorige">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <div class="lb-caption">
+          <h2 class="lb-title" id="lb-title"></h2>
+          <p class="lb-text" id="lb-text"></p>
+        </div>
+        <button class="lb-nav" type="button" id="lb-next" aria-label="Volgende">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wolkvorm (huisstijl §7), herbruikt via <use> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="cloud" viewBox="0 0 220 120"><path d="M48 104c-22 0-38-15-38-34 0-18 14-32 32-33 6-19 24-31 44-29 12-14 34-18 51-8 15 8 23 24 22 40 18 2 31 16 31 33 0 18-15 31-34 31z"/></symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
